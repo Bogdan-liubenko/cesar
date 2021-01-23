@@ -1,0 +1,8 @@
+text = input (str)
+a = ' '
+for letter in text:
+    if(letter != ' '):
+        a += " ".join(chr(ord(letter)+3))
+    else:
+        a += " ".join(' ') 
+print(a)
